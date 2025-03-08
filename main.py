@@ -20,7 +20,9 @@ app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
 ckeditor = CKEditor(app)
 Bootstrap(app)
 
+# checking jenkins pipeline practise 
 
+'''______________________________'''
 login_manager = LoginManager()
 login_manager.__init__(app=app)
 
